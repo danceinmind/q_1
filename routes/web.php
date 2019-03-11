@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-URL::forceRootUrl('http://192.168.56.1');
+// URL::forceRootUrl('http://192.168.56.1');
 
 Route::get('/', function () {
     return view('welcome');
